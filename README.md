@@ -4,7 +4,7 @@ Os passos abaixo especificam como utilizar o FluxCD para funcionar como seu oper
 
 ## 0.1 Pré-Requisitos:
 
-- Um Cluster Kubernetes em uma versão **MAIOR ou IGUAL que a 1.19** (nesse caso, estou usando o [minikube](https://minikube.sigs.k8s.io/), mas poderia ser qualquer um, desde que o mesmo tenha acesso a internet)
+- Um Cluster Kubernetes em uma versão **MAIOR ou IGUAL que a 1.16** e o kubectl esteja numa versão **MAIOR ou IGUAL que 1.19** (nesse caso, estou usando o [minikube](https://minikube.sigs.k8s.io/), mas poderia ser qualquer um, desde que o mesmo tenha acesso a internet)
 - Para este mini tutorial, vou usar minha conta no GitHub com um access token configurado. Porém, vale ressaltar que o Flux aceita diversos tipos de Sources, e eles serão comentados mais a frente neste doc. 
 
 ## 1: Instalação do FluxCLI
